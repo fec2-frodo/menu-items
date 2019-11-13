@@ -104,3 +104,9 @@ fieldset {
   border: none;
 }
 button:focus {outline:0;}
+
+.close-modal-btn {
+  float: right;
+  font-size: xx-large;
+  cursor: pointer;
+}

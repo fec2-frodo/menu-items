@@ -15,7 +15,6 @@ const Modal = styled.div`
     justify-content: flex-start;
     box-sizing: border-box;
   }
-  background: white;
 `;
 
 const ModalBody1 = styled.div`

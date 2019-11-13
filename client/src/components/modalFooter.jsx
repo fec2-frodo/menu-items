@@ -87,7 +87,7 @@ class ModalFooter extends React.Component {
 
   DecreaseItem() {
     const { price, oldPrice, count } = this.state;
-    this.setState({ price: price - oldPrice, count: count - 1 });
+    this.setState({ price: (price - oldPrice).toFixed(2), count: count - 1 });
   }
 
   IncrementItem() {

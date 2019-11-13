@@ -16,6 +16,7 @@ const Container = styled.div`
     height: 128px;
   }
   &:hover {background-color:#F7F7F8};
+  cursor: pointer;
 `;
 
 const Body = styled.div`
